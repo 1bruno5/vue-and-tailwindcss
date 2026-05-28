@@ -1,67 +1,45 @@
 <template>
-  <section class="bg-gradient-to-br from-gray-100 to-gray-200 min-h-screen py-20 px-6">
-    
-    <div class="text-center mb-16">
-      <h1 class="text-5xl md:text-6xl font-extrabold text-gray-800">
-        SOS Leaders
-      </h1>
-
-      <p class="text-gray-600 mt-4 text-lg">
-        Meet the leadership team of SOS School
-      </p>
-
-      <div class="w-32 h-1 bg-blue-600 mx-auto mt-5 rounded-full"></div>
-    </div>
-
-   
-    <div class="flex flex-wrap justify-center gap-10">
-
-      
-      <div
-        class="bg-white w-80 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 p-8 text-center"
-      >
-       
-
-
-        <h2 class="text-2xl font-bold text-gray-800 mt-6">
-          School Principal
-        </h2>
-
-        <p class="text-gray-500 mt-3 text-lg">
-          HAKIZAYEZU Jean De Diue
-        </p>
-      </div>
-
-      
-      <div
-        class="bg-white w-80 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 p-8 text-center"
-      >
-
-
-        <h2 class="text-2xl font-bold text-gray-800 mt-6">
-          Director of Studies
-        </h2>
-
-        <p class="text-gray-500 mt-3 text-lg">
-          NKUNDIMFURA Zacharrie
-        </p>
-      </div>
+  <nav class="bg-blue-600 border-b border-blue-700 shadow-sm sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
 
      
-      <div
-        class="bg-white w-80 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 p-8 text-center"
-      >
+      <RouterLink to="/" class="flex items-center gap-2 group">
+        <div class="bg-white rounded-full p-1">
+          <img
+            src="../assets/image.png"
+            alt="Tourism Logo"
+            class="w-10 h-10 object-contain rounded-full"
+          />
+        </div>
+          </RouterLink>
 
+    
+      <div class="flex items-center gap-6">
+        <RouterLink
+          to="/"
+          class="text-blue-100 hover:text-white font-medium transition-colors duration-200"
+          active-class="text-white font-semibold border-b-2 border-white pb-0.5"
+        >
+          Home
+        </RouterLink>
 
-        <h2 class="text-2xl font-bold text-gray-800 mt-6">
-          Director of Discipline
-        </h2>
+        <RouterLink
+          to="/about"
+          class="text-blue-100 hover:text-white font-medium transition-colors duration-200"
+          active-class="text-white font-semibold border-b-2 border-white pb-0.5"
+        >
+          About
+        </RouterLink>
 
-        <p class="text-gray-500 mt-3 text-lg">
-          HIGIRO Willy Marcel
-        </p>
+        <RouterLink
+          to="/contact"
+          class="text-blue-100 hover:text-white font-medium transition-colors duration-200"
+          active-class="text-white font-semibold border-b-2 border-white pb-0.5"
+        >
+          Contact
+        </RouterLink>
       </div>
 
     </div>
-  </section>
+  </nav>
 </template>
