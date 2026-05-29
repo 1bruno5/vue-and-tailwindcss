@@ -23,7 +23,7 @@ import RudahigwaH from "../assets/images/RudahigwaH.png";
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 text-center">
         <div class="max-w-2xl mx-auto">
           <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-4 drop-shadow">
-            Tembera Urwanda
+           TEMBERA URWANDA
           </h1>
 
           <p class="text-base sm:text-lg text-green-100 mb-8 leading-relaxed">

@@ -1,3 +1,4 @@
+
 <script setup>
 import Gorilla from '../assets/images/Gorilla.png'
 import Canopy from '../assets/images/Canopy.png'
